@@ -1,11 +1,6 @@
 import { Geist_Mono, Inter } from "next/font/google"
 import type { Metadata } from "next"
 
-import "./globals.css"
-import { ThemeProvider } from "@/components/theme-provider"
-import { SanityLive } from "@/sanity/lib/live"
-import { VisualEditing } from "next-sanity/visual-editing"
-import { draftMode } from "next/headers"
 import { cn } from "@/lib/utils"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
@@ -31,7 +26,6 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const { isEnabled: isDraftMode } = await draftMode()
 
   return (
     <html
@@ -45,11 +39,7 @@ export default async function RootLayout({
       )}
     >
       <body>
-        <ThemeProvider>
-          {children}
-        </ThemeProvider>
-        <SanityLive />
-        {isDraftMode && <VisualEditing />}
+        <main>{children}</main>
       </body>
     </html>
   )

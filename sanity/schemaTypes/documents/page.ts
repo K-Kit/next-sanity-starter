@@ -42,6 +42,7 @@ export const page = defineType({
         defineArrayMember({ type: 'testimonials', title: 'Testimonials' }),
         defineArrayMember({ type: 'faq', title: 'FAQ' }),
         defineArrayMember({ type: 'logoCloud', title: 'Logo Cloud' }),
+        defineArrayMember({ type: 'contactForm', title: 'Contact Form' }),
       ],
     }),
     defineField({

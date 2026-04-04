@@ -41,7 +41,7 @@ export default async function HomePage() {
 
   if (!page) {
     return (
-      <main className="flex min-h-svh items-center justify-center p-6">
+      <div className="flex min-h-svh items-center justify-center p-6">
         <div className="max-w-md text-center">
           <h1 className="text-2xl font-bold">Welcome to your starter</h1>
           <p className="mt-2 text-muted-foreground">
@@ -52,13 +52,9 @@ export default async function HomePage() {
             to get started.
           </p>
         </div>
-      </main>
+      </div>
     )
   }
 
-  return (
-    <main>
-      <SectionRenderer sections={page.sections} />
-    </main>
-  )
+  return <SectionRenderer sections={page.sections} />
 }

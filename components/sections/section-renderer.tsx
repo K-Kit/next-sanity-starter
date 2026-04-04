@@ -1,6 +1,7 @@
 import { Hero } from './hero'
 import { Features } from './features'
 import { Cta } from './cta'
+import { ContactForm } from './contact-form'
 import { Testimonials } from './testimonials'
 import { Faq } from './faq'
 import { LogoCloud } from './logo-cloud'
@@ -9,6 +10,7 @@ const sectionComponents: Record<string, React.ComponentType<any>> = {
   hero: Hero,
   features: Features,
   cta: Cta,
+  contactForm: ContactForm,
   testimonials: Testimonials,
   faq: Faq,
   logoCloud: LogoCloud,

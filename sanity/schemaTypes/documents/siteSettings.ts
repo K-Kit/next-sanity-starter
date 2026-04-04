@@ -1,4 +1,4 @@
-import { defineArrayMember, defineField, defineType } from 'sanity'
+import { defineField, defineType } from 'sanity'
 
 export const siteSettings = defineType({
   name: 'siteSettings',
@@ -6,8 +6,6 @@ export const siteSettings = defineType({
   type: 'document',
   groups: [
     { name: 'general', title: 'General', default: true },
-    { name: 'navigation', title: 'Navigation' },
-    { name: 'social', title: 'Social' },
   ],
   fields: [
     defineField({
@@ -34,64 +32,6 @@ export const siteSettings = defineType({
       options: {
         hotspot: true,
       },
-    }),
-    defineField({
-      name: 'headerNav',
-      title: 'Header Navigation',
-      type: 'array',
-      group: 'navigation',
-      description: 'Top-level navigation items. Each can be a simple link or a mega menu dropdown with columns of grouped links.',
-      of: [defineArrayMember({ type: 'navMenu' })],
-    }),
-    defineField({
-      name: 'footerLinks',
-      title: 'Footer Links',
-      type: 'array',
-      group: 'navigation',
-      description: 'Navigation links shown in the site footer. Typically includes legal pages, support links, and secondary navigation.',
-      of: [defineArrayMember({ type: 'link' })],
-    }),
-    defineField({
-      name: 'socialLinks',
-      title: 'Social Links',
-      type: 'array',
-      group: 'social',
-      description: 'Links to your social media profiles. These are typically displayed as icons in the header or footer.',
-      of: [
-        defineArrayMember({
-          type: 'object',
-          name: 'socialLink',
-          fields: [
-            defineField({
-              name: 'platform',
-              title: 'Platform',
-              type: 'string',
-              description: 'The social media platform.',
-              options: {
-                list: [
-                  { title: 'Twitter / X', value: 'twitter' },
-                  { title: 'GitHub', value: 'github' },
-                  { title: 'LinkedIn', value: 'linkedin' },
-                  { title: 'Instagram', value: 'instagram' },
-                ],
-                layout: 'radio',
-              },
-            }),
-            defineField({
-              name: 'url',
-              title: 'URL',
-              type: 'url',
-              description: 'The full URL to your profile on this platform, e.g. https://twitter.com/yourusername.',
-            }),
-          ],
-          preview: {
-            select: {
-              title: 'platform',
-              subtitle: 'url',
-            },
-          },
-        }),
-      ],
     }),
   ],
   preview: {
