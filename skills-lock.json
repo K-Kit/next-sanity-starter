@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "skills": {
+    "analytics-tracking": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "1ad3893d31e5df78cb4b4e16801f49acbdf82daed5f775748859ca7dc638d6d0"
+    },
+    "content-experimentation-best-practices": {
+      "source": "sanity-io/agent-toolkit",
+      "sourceType": "github",
+      "computedHash": "5b70e63ed5ebd5588ef7b3130516315b62ef94195fb902d7f7876dc898cb023d"
+    },
+    "content-modeling-best-practices": {
+      "source": "sanity-io/agent-toolkit",
+      "sourceType": "github",
+      "computedHash": "43b7d7db0bb36a858827616204c0060ae29fcf7cf278efdf6c496e6494411bd7"
+    },
+    "content-strategy": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "be124f3733b037fb8d859f275454ecd1c590759ef9ab184bea35ba1a0a38e14c"
+    },
+    "copy-editing": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "3c6241215420e69b36814270a47413b2de9593b5516f5942b7481092f6c63382"
+    },
+    "copywriting": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "2e83eda2221e97166172a0798e9b0379e34080595e107e2fc0cf580e9b3bbf7b"
+    },
+    "form-cro": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "d6d5dcc076f4042b333a34bb707b3bde22bf1a67f9acfb598cb4d4bf1199f3d5"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "computedHash": "063a0e6448123cd359ad0044cc46b0e490cc7964d45ef4bb9fd842bd2ffbca67"
+    },
+    "marketing-ideas": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "6463f11419704994d58248c398b99c6b097eac24f72f4c86bea1565e435e222e"
+    },
+    "marketing-psychology": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "ddec844d01d102687f89749e1d3a9f7a9019010dce1039a7d442189f39726ad4"
+    },
+    "page-cro": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "9505748dba2319487b285f8ab8c1e5417fce38a512d596e1c9e2e87b34b196e1"
+    },
+    "sanity-best-practices": {
+      "source": "sanity-io/agent-toolkit",
+      "sourceType": "github",
+      "computedHash": "462e01667b4f0a10d4f8cceb8c328131bce5413b004db7685e8a065b538c8112"
+    },
+    "seo-aeo-best-practices": {
+      "source": "sanity-io/agent-toolkit",
+      "sourceType": "github",
+      "computedHash": "b5f1e019f8521a927b07f794882c309798fdbde5a0ca12af1da7b6e2cc2b69b9"
+    },
+    "seo-audit": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "1eef04180a5278a6869fab117c75fa2acf512bfda0a4b16569409b88b7bcb343"
+    },
+    "shadcn": {
+      "source": "shadcn/ui",
+      "sourceType": "github",
+      "computedHash": "507f011a70e8b3ae242bdc0bb5b39fd91a1d4049a0f3c281991ccf84973d591c"
+    },
+    "site-architecture": {
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "computedHash": "4cdfd1ba49925184462a7524586a5ec0b127668498e7bf2972ef0d4c112e9585"
+    },
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "575757e3e25761c8c562d6e395d29f0b76c98b1273c0bd72d88e6ab1bc9c7d42"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "43ca6c197f8ec13055079da7053232d477068b03ca443f9ac1bc819b95cdd432"
+    },
+    "vercel-react-view-transitions": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "c8952fc9127fa0564d0cb71dccb4215a5608ac933b5831104f09173a97a46f85"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "computedHash": "f3bc47f890f42a44db1007ab390709ec368e4b8c089baee6b0007182236ac474"
+    }
+  }
+}
