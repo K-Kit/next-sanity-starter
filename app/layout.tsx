@@ -1,5 +1,6 @@
 import { Geist_Mono, Inter } from "next/font/google"
 import type { Metadata } from "next"
+import { Agentation } from "agentation"
 
 import { cn } from "@/lib/utils"
 
@@ -40,6 +41,7 @@ export default async function RootLayout({
     >
       <body>
         <main>{children}</main>
+        {process.env.NODE_ENV === "development" && <Agentation />}
       </body>
     </html>
   )
